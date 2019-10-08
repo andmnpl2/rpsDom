@@ -1,0 +1,66 @@
+body{
+    font-family: Trebuchet MS,sans-serif;
+    font-weight: normal;
+}
+.tittle {
+    color: #e62649;
+    text-align: center;
+}
+.tittle h1{
+    font-size: 35px;
+}
+h2{
+    color: #9d9cb8;
+
+}
+
+.score {
+    text-align: center;
+    align-items: center;
+    float: center;
+  }
+
+.score ul{
+    list-style: none;
+}
+.score h2 {
+    margin: 10px;
+    font-size: 20px;
+    align-items: center;
+  }
+  .score p {
+    margin: 10px;
+    text-align: center;
+    padding: 0px;
+    font-size: 25px;
+  }
+  .score li{
+	display: inline-block;
+	padding: 10px;
+}
+.option{
+
+    text-align: center;
+}
+
+.option h2{
+    color: #e62649;
+    font-size: 30px;
+}
+
+.computerHand {
+    transform: rotateY(180deg);
+}
+
+.button {
+    text-align: center;
+    margin: 30px;
+}
+ 
+.button button {
+    margin: 10px;
+    padding: 10px;
+    border-bottom-color: transparent;
+    background-color: transparent;
+    border-bottom: none;
+}
