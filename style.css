@@ -5,6 +5,8 @@ body{
 .tittle {
     color: #e62649;
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 .tittle h1{
     font-size: 35px;
@@ -48,9 +50,17 @@ h2{
     font-size: 30px;
 }
 
+.hands{
+    margin: 40px;
+}
+.playerHand {
+    padding: 20px;
+}
 .computerHand {
     transform: rotateY(180deg);
+    padding: 20px;
 }
+
 
 .button {
     text-align: center;
@@ -61,7 +71,10 @@ h2{
     margin: 10px;
     padding: 10px;
     color: #e62649;
-    border-bottom-color: transparent;
     background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   
 }

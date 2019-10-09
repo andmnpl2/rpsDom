@@ -1,4 +1,102 @@
 
+
+  const playMatch = () => {
+
+    /* const optionsClass = document.querySelectorAll('.option button');
+    const playerHandClass = document.querySelector('.playerHand');
+    const computerHandClass = document.querySelector('.computerHand');
+ */
+  }
+      //3. Function called computerPlay that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’ 
+
+  function computerPlay () {
+    let randomNumber = Math.floor(Math.random() *3);
+    
+    if (randomNumber == 0) {
+      return "rock";
+    }
+    
+    else if (randomNumber == 1) {
+       return "paper";
+    
+    }
+    else
+      return "scissors";
+             
+  }
+  function ana (){
+    console.log('Aristo')
+  }
+
+  //3. Add event 
+  const optionsClass = document.getElementsByClassName('rock');
+  optionsClass.addEventListener('click',ana);
+
+
+  //4. 
+  /* Write a function that plays a single round of Rock Paper Scissors
+  let playerScore = 0;
+  let compScore = 0;
+  let tieScore = 0;
+
+  function playRound (playerSelection,computerSelection) {
+    if (playerSelection ()== "rock") {
+        if (computerSelection == "rock") {
+          tieScore++;
+          return alert("Tie!");            
+        } 
+        
+        else if (computerSelection == "paper"){
+          compScore++;
+          return "You Lose! Paper beats Rock"
+        } else {
+          playerScore++;
+          return "You Win! Rock beats Scissors"
+          
+        }
+        
+      }
+      
+    else if (playerSelection.toLowerCase () == "paper") {
+        if (computerSelection == "rock") {
+          playerScore++;
+          return "You Win! Paper beats Rock";
+        }
+        else if (computerSelection == "paper") {
+          tieScore++;
+          return "Tie!";
+          
+        } else {
+          compScore++;
+          return "You Lose! Scissors beats Paper";
+          
+        }
+      }
+     */
+    /*
+    else if (playerSelection.toLowerCase () == "scissors") {
+      if (computerSelection == "rock") {
+        compScore++;
+        return "You Lose! Rock beats Scissors";
+      }
+      else if (computerSelection == "paper"){
+        playerScore++;
+        return "You Win! Scissors beats Rock";
+      } else {
+        tieScore++;
+        return "Tie!";
+          
+        }
+
+    } else {
+      return alert("Try again!");
+      
+      }
+      
+    }
+
+
+
 /*Go back to your “Rock Paper Scissors” game from a previous lesson and give it a simple UI so that the
 player can play the game by clicking on buttons rather than typing their answer in a prompt.
 Copy your original code into a new file so you don’t lose it.
@@ -8,11 +106,6 @@ Create three buttons, one for each selection.*/
 
 //Add an event listener to the buttons that calls your playRound function with the
 //correct playerSelection every time a button is clicked. (you can keep the console.logs for this step)
-
-let playerScore = 0;
-let compScore = 0;
-let tieScore = 0;
-
 
 
 
@@ -128,5 +221,4 @@ Don’t forget to go back and add your new version to the original Rock Paper Sc
       }
     }
     finalScore();
-    console.log(finalScore (compScore,playerScore));
-    */
+    console.log(finalScore (compScore,playerScore));*/
